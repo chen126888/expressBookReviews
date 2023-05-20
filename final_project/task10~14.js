@@ -9,7 +9,7 @@ const getListBooks = async function (){
       })
       .catch((error) => {
         return error;
-      });
+      }); 
     return data;
 };
 (async()=>{
